@@ -1,2 +1,0 @@
-# WEB
-WEB laboratory projects
