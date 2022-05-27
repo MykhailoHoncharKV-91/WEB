@@ -2,6 +2,7 @@
 {
     width: 100%;
     height: auto;
+    padding-bottom: 80px;
     background-color: rgb(201, 228, 251);
 }
 
@@ -33,7 +34,8 @@
 .info-description-statistics
 {
     display: grid;
-    grid-gap: 5em;
+    width: auto;
+    grid-gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(17em, 24em));
     justify-content: center;
 }
