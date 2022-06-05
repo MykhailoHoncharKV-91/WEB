@@ -1,0 +1,132 @@
+.buys
+{
+    width: 100%;
+    height: auto;
+    padding: 50px 0 90px;
+    background-color: rgb(201, 228, 251);
+}
+
+.buys-container
+{
+    margin: 0 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-gap: 30px;
+    justify-content: center;
+}
+
+.buys-big-product
+{
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.big-product-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 20px 20px 40px;
+    grid-gap: 10px;
+}
+
+.big-product-container img
+{
+    height: 500px;
+    margin-right: 40px;
+}
+
+.big-product-name
+{
+    font-weight: 1000;
+    font-size: 45px;
+}
+
+.big-product-price
+{
+    color: #6f6f6f
+}
+
+.big-product-info ul
+{
+    list-style-type: none;
+    margin-left: -2em;
+}
+
+.big-product-info a
+{
+    background-color: rgb(29, 28, 92);
+    border: 0;
+    padding: 20px 40px;
+    color: rgba(255, 255, 255, .7);
+    box-shadow: 0 5px 5px rgba(14, 13, 43, 0.4);
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all .1s ease-out;
+}
+
+.big-product-info a:hover
+{
+    color: white;
+}
+.buys-other-products
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18em, 25em));
+    grid-gap: 30px; 
+    justify-content: center;
+}
+
+.buys-product
+{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.buys-product img
+{
+    width: 100%;
+    height: 300px;
+}
+
+.product-panel
+{
+    margin: -1em 20px 40px;
+}
+
+.product-name
+{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.product-price
+{
+    margin-top: -2em;
+    color: #6f6f6f
+}
+
+.product-description
+{
+    margin-bottom: 40px;
+}
+
+.product-panel a
+{
+    background-color: rgb(29, 28, 92);
+    border: 0;
+    padding: 15px 35px;
+    color: rgba(255, 255, 255, .7);
+    box-shadow: 0 5px 5px rgba(14, 13, 43, 0.4);
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all .1s ease-out;
+}
+
+.product-panel a:hover
+{
+    color: white;
+}
