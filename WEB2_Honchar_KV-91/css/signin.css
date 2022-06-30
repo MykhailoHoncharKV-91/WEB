@@ -1,0 +1,48 @@
+.signin
+{
+    width: 100%;
+    height: auto;
+    padding: 50px 0 90px;
+    background-color: rgb(201, 228, 251);
+}
+
+.signin-container
+{
+    background-color: white;
+    box-shadow: 0 5px 5px rgba(14, 13, 43, 0.4);
+    margin: 20px 180px;
+    padding: 0 20px 60px;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    justify-content: center;
+}
+
+.signin-container h3
+{
+    opacity: .8;
+    margin-top: -1em;
+    font-weight: 100;
+}
+
+.input-section p
+{
+    font-weight: 350;
+    margin-bottom: 0;
+}
+
+.input-section input
+{
+    width: 300px;
+    height: 20px;
+}
+
+.remember-user
+{
+    margin: 25px 0 20px;
+    font-weight: 380;
+}
+
+.input-buttons input
+{
+    margin-right: 20px;
+}

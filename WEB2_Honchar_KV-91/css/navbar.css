@@ -1,0 +1,94 @@
+body
+{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar
+{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 10px rgba(14, 13, 43, 0.4);
+    background-color: rgb(29, 28, 92);
+}
+
+.navbar .navbar-container
+{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 30px;
+}
+
+.navbar-refs
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.navbar-menu
+{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+.navbar-menu li
+{
+    display: inline-block;
+}
+
+.navbar-menu li a
+{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    text-decoration: none;
+    padding: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-menu li a:hover
+{
+    opacity: 1;
+}
+
+.navbar-logo
+{
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+}
+
+.navbar-logo:hover
+{
+    color:rgb(188, 186, 255)
+}
+
+.navbar-profile
+{
+    margin-left: 40px;
+    padding: 10px 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    color: rgb(29, 28, 92);
+    text-decoration: none;
+    transition: all .1s ease-out;
+}
+
+.navbar-profile:hover
+{
+    transform: scale(1.03);
+    color: rgb(29, 28, 92);
+}
